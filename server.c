@@ -68,6 +68,7 @@ int main(int argc, char** argv)
         {
             printf("Error adding connection to the users list:\n");
             pthread_mutex_unlock(&lock); // unlock mutex and return so that socket could be closed
+	    continue;
         }
 
         /*for(i=0; i<cursor; i++)
