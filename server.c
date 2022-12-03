@@ -4,8 +4,7 @@
 /* $begin echoservertmain */
 #include "csapp.h"
 
-/* Rishabh Singhvi : rsinghvi@umass.edu
- * Xinyu Cao:  xinyucao@umass.edu
+/* Rishabh Singhvi : rsinghvi@umass.ed
  */
 #define NUM_CONNECTIONS 20 //server serves a maximum of 20 connections
 
